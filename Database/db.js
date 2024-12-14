@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const Mongo_Url =
-  "mongodb+srv://niteshbhardwaj2001:B1XSKp0UWMAbLGoY@cluster0.15ssesm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://add your mongodb server link";
 
 const Connection = () => {
   mongoose
