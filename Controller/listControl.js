@@ -47,7 +47,7 @@ export const updateItem = async (req, res) => {
     const status = req.body.status;
     const data = await listData.findByIdAndUpdate(Id, { status: status });
     //  code to save data in database goes here
-    res.status(200).json({ message: "list Item updated successfully", data });
+    res.status(200).json({ message: "list Item updated successfully"});
   } catch (error) {
     console.log(error);
     res.status(500).json(error);
@@ -61,7 +61,7 @@ export const deleteItem = async (req, res) => {
     const value = await listData.findByIdAndDelete(Id);
 
     //  code to save data in database goes here
-    res.status(200).json({ message: "list Item delete successfully" });
+    res.status(200).json({ message: "list Item deleted successfully" });
   } catch (error) {
     console.log(error);
     res.status(500).json(error);

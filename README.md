@@ -4,7 +4,8 @@ I hope you're doing well. I’m Nitesh Bhardwaj, a recent Computer Science gradu
 steps to run the code:
 1. first of all go to the github repository link "https://github.com/Niteshbhar/Niteshbhar-backendDevelopmentTask
 2. After installing the files go to the directory of the file.
-3. in the terminal run command "npm install"
+3. in the terminal run command "npm install" and after that goto database       
+   folder and in db.js file ,add your mongodb url .
 4. after installing the files in terminal run command "node server.js"or      
    "nodemon server.js" if you have installed nodemon
 5. if all goes well it will show :
